@@ -17,8 +17,8 @@ posicionamento, alinhamentos
 
 #page-home {
     height: 100vh;
-    background: url('../styl.sgv) ; no-repeat ;
-    background-position: 35vw; bottom;
+    background: url('./styles/home-background.svg') no-repeat;
+    background-position: 35vw;
 }
 
 #page-home .content {
