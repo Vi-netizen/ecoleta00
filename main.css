@@ -1,0 +1,37 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+body{
+background: #f0f0f5
+}
+
+
+/*BOX MODEL
+
+Modelo de caixa
+toda caixa tem
+largura, autura, espaçamentos, preenchimento,
+ bordas, cor, fundo, maneira que é vista pelo html (display),
+posicionamento, alinhamentos
+*/
+
+#page-home {
+    height: 100vh;
+    background: url('../styl.sgv) ; no-repeat ;
+    background-position: 35vw; bottom;
+}
+
+#page-home .content {
+    width: 90% ;
+    max-width: 1100px;
+
+    margin: 0 auto;
+}
+
+#page-home header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
